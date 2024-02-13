@@ -1,10 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:fpdart/fpdart.dart';
 import 'package:injectable/injectable.dart';
-import 'package:mobile_client/domain/repository/auth_repository.dart';
-import 'package:mobile_client/presentation/features/settings/bloc/settings_page.bloc.events.dart';
-import 'package:mobile_client/presentation/features/settings/bloc/settings_page.bloc.states.dart';
-import 'package:mobile_client/utils/logger.dart';
 
 @injectable
 class {{#pascalCase}}{{name}} page bloc{{/pascalCase}}
