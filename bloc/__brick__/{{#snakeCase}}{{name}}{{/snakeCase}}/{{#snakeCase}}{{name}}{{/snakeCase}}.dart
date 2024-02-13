@@ -13,11 +13,10 @@ class {{#pascalCase}}{{name}} page{{/pascalCase}} extends StatelessWidget {
       body: BlocProvider(
         create: (ctx) => diContainer<{{#pascalCase}}{{name}} pageBloc{{/pascalCase}}>(),
         child: const Center(
-          child: const Text('{{#sentenceCase}}{{name}} page content{{/sentenceCase}}'),
+          child: Text('{{#sentenceCase}}{{name}} page content{{/sentenceCase}}'),
         ),
       ),
     );
   }
 }
 
-{{#snakeCase}}{{name}}{{/snakeCase}}
